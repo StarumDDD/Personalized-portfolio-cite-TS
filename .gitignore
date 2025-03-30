@@ -36,3 +36,6 @@ Thumbs.db
 # Public folder artifacts
 /public/models/
 /public/images/
+
+# Ignore todo.txt
+todo.txt

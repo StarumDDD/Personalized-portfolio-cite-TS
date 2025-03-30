@@ -1,6 +1,6 @@
 # Portfolio Website User Guide
 
-This guide explains how to use, run, customize, and deploy your new portfolio website.
+This guide explains how to use, run, customize, and deploy the portfolio website.
 
 ## Table of Contents
 1. [Getting Started](#getting-started)
