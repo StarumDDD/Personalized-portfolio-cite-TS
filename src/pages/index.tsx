@@ -43,7 +43,7 @@ export default function Home() {
         <div className={`relative py-24 px-4 sm:px-6 lg:px-8 ${showFancy ? 'min-h-[80vh]' : 'min-h-[50vh]'} flex items-center transition-all duration-500`}>
           <div className="absolute inset-0 z-0">
             {showFancy && (
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-gray-50" />
+              <div className="absolute inset-0 bg-gradient-to-br from-green-50 via-white to-gray-50" />
             )}
           </div>
           
@@ -164,7 +164,7 @@ export default function Home() {
         <AnimatedSection animation="fade-up" delay={0.4} className="py-16 px-4 sm:px-6 lg:px-8 bg-primary text-white">
           <div className="container mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">{ctaContent.title}</h2>
-            <p className="text-lg text-blue-100 max-w-2xl mx-auto mb-8">
+            <p className="text-lg text-green-100 max-w-2xl mx-auto mb-8">
               {ctaContent.description}
             </p>
             <Link 

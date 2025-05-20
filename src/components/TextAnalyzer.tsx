@@ -101,7 +101,7 @@ const TextAnalyzer = () => {
                 result.topWords.map((item, index) => (
                   <div key={index} className="flex justify-between items-center">
                     <span className="text-gray-800">{item.word}</span>
-                    <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs">
+                    <span className="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">
                       {item.count} {item.count === 1 ? 'occurrence' : 'occurrences'}
                     </span>
                   </div>
