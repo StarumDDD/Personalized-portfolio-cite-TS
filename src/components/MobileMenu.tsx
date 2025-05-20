@@ -42,7 +42,7 @@ const MobileMenu = ({ isOpen, onClose, links }: MobileMenuProps) => {
             <Link
               href={link.href}
               key={link.href}
-              className={`py-2 px-4 rounded-md text-lg ${router.pathname === link.href ? 'bg-blue-50 text-primary font-medium' : 'text-gray-700'}`}
+              className={`py-2 px-4 rounded-md text-lg ${router.pathname === link.href ? 'bg-green-50 text-primary font-medium' : 'text-gray-700'}`}
               onClick={onClose}
             >
               {link.label}

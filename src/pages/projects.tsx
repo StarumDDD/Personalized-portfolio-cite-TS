@@ -126,7 +126,7 @@ export default function Projects() {
                     {project.tags.map((tag, tagIndex) => (
                       <span
                         key={tagIndex}
-                        className="text-xs px-2 py-1 bg-blue-50 text-blue-600 rounded-full"
+                        className="text-xs px-2 py-1 bg-green-50 text-green-600 rounded-full"
                       >
                         {tag}
                       </span>
